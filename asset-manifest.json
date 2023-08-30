@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Game-web/static/css/main.ac0838b3.css",
-    "main.js": "/Game-web/static/js/main.98d33248.js",
+    "main.css": "/Game-web/static/css/main.8c380962.css",
+    "main.js": "/Game-web/static/js/main.dc56b098.js",
     "static/js/787.0e769d05.chunk.js": "/Game-web/static/js/787.0e769d05.chunk.js",
     "static/media/hero-banner.jpg": "/Game-web/static/media/hero-banner.7b5925f1769b5b659b86.jpg",
     "static/media/gallery-img-2.jpg": "/Game-web/static/media/gallery-img-2.e4ed0b4caf1e0dfc0617.jpg",
@@ -29,12 +29,12 @@
     "static/media/team-member-4.png": "/Game-web/static/media/team-member-4.8585048edce9b35e5e64.png",
     "static/media/gamex.svg": "/Game-web/static/media/gamex.aee51caaaa5d26cfbf0da4b519f41152.svg",
     "index.html": "/Game-web/index.html",
-    "main.ac0838b3.css.map": "/Game-web/static/css/main.ac0838b3.css.map",
-    "main.98d33248.js.map": "/Game-web/static/js/main.98d33248.js.map",
+    "main.8c380962.css.map": "/Game-web/static/css/main.8c380962.css.map",
+    "main.dc56b098.js.map": "/Game-web/static/js/main.dc56b098.js.map",
     "787.0e769d05.chunk.js.map": "/Game-web/static/js/787.0e769d05.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac0838b3.css",
-    "static/js/main.98d33248.js"
+    "static/css/main.8c380962.css",
+    "static/js/main.dc56b098.js"
   ]
 }
