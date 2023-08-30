@@ -36,3 +36,118 @@
     transform: rotate(360deg);
   }
 }
+
+.slanted-1 {
+  clip-path: polygon(0 0, 70% 0, 60% 13%, 0 13%);
+}
+.slanted-2 {
+  clip-path: polygon(30% 0, 100% 0, 100% 13%, 40% 13%);
+}
+.btn {
+  clip-path: polygon(90% 0, 100% 34%, 100% 100%, 10% 100%, 0 66%, 0 0);
+}
+
+.fontFam {
+  font-family: Renault;
+}
+
+.wrapper-section {
+  background: url(./Images/section-tournament.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.scroll-bar {
+  overflow-x: scroll;
+  scroll-behavior: inherit;
+}
+
+.scroll-bar::-webkit-scrollbar {
+  width: 8px;
+  height: 6px;
+}
+.scroll-bar::-webkit-scrollbar-button {
+  width: 200px;
+}
+.scroll-bar::-webkit-scrollbar-track {
+  background: #1b1c22;
+}
+
+.scroll-bar::-webkit-scrollbar-thumb {
+  background: #ff8605;
+  border-radius: 10px;
+}
+.card-img {
+  background: url(./Images//gears-card-bg.png) no-repeat;
+  background-size: contain;
+  background-position: center;
+  aspect-ratio: 2 / 1.7;
+}
+
+.btn-like {
+  clip-path: polygon(75% 0, 100% 25%, 100% 100%, 25% 100%, 0 75%, 0 0);
+}
+.w-img {
+  position: inherit;
+}
+
+.newsletter-card {
+  background: url(./Images/newsletter-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.footer {
+  background: url(./Images/footer-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.input-footer {
+  clip-path: polygon(93% 0, 100% 30%, 100% 100%, 7% 100%, 0 63%, 0 0);
+}
+
+.btn-footer {
+  clip-path: polygon(70% 0, 100% 30%, 100% 100%, 30% 100%, 0 63%, 0 0);
+}
+
+.btn-top {
+  clip-path: polygon(70% 0, 100% 30%, 100% 100%, 30% 100%, 0 70%, 0 0);
+}
+
+/* sidebar  */
+.active-bg {
+  background: hsla(0, 0%, 0%, 0.7);
+  pointer-events: all;
+  transition: var(--transition-3);
+}
+
+.trans-form{
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 1000px;
+  background-color: #1b1c22;
+  transform: translateX(0%);
+  transition: 0.5s ease-in-out;
+}
+
+.trans-form:focus{
+  transform: translateX(0%);
+
+}
+
+@media screen and (min-width: 768px) {
+  .input {
+    clip-path: polygon(96% 0, 100% 36%, 100% 100%, 4% 100%, 0 66%, 0 0);
+  }
+}
+
+.active-sc {
+  overflow-y: hidden;
+  background-color: hsla(0, 0%, 0%, 0.7);
+}
+
+.twitter, .instagram, .github, .youtube {
+  color: #ff8605;
+}
