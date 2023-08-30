@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/Game-web/static/css/main.ac0838b3.css",
+    "main.js": "/Game-web/static/js/main.98d33248.js",
+    "static/js/787.0e769d05.chunk.js": "/Game-web/static/js/787.0e769d05.chunk.js",
+    "static/media/hero-banner.jpg": "/Game-web/static/media/hero-banner.7b5925f1769b5b659b86.jpg",
+    "static/media/gallery-img-2.jpg": "/Game-web/static/media/gallery-img-2.e4ed0b4caf1e0dfc0617.jpg",
+    "static/media/gallery-img-3.jpg": "/Game-web/static/media/gallery-img-3.7104f530e060db26921b.jpg",
+    "static/media/gallery-img-1.jpg": "/Game-web/static/media/gallery-img-1.3dced094e28741a4ec4b.jpg",
+    "static/media/newsletter-bg.jpg": "/Game-web/static/media/newsletter-bg.6e9228f8b12db1564cb2.jpg",
+    "static/media/section-tournament.jpg": "/Game-web/static/media/section-tournament.1f1df7c051ee62e7ca5c.jpg",
+    "static/media/gallery-img-4.jpg": "/Game-web/static/media/gallery-img-4.a862ef7f62e9960dcb04.jpg",
+    "static/media/footer-bg.jpg": "/Game-web/static/media/footer-bg.97659c6d6c5e9c4e9186.jpg",
+    "static/media/gears-img-2.png": "/Game-web/static/media/gears-img-2.4e019bc2f0533732ec67.png",
+    "static/media/character-2.png": "/Game-web/static/media/character-2.cdd1639dba42d95d1535.png",
+    "static/media/character-3.png": "/Game-web/static/media/character-3.cf9898dc24cf6a9f57a4.png",
+    "static/media/REFAULT.woff": "/Game-web/static/media/REFAULT.66c5469c40ab7f5d1cfc.woff",
+    "static/media/gears-img-1.png": "/Game-web/static/media/gears-img-1.f63c9d15589c9ef32062.png",
+    "static/media/character-1.png": "/Game-web/static/media/character-1.4eed79cbc8c66e4cc895.png",
+    "static/media/team-member-3.png": "/Game-web/static/media/team-member-3.90bbfe2830ea8d7a7716.png",
+    "static/media/team-member-12.png": "/Game-web/static/media/team-member-12.e6e6aae68569ea019d40.png",
+    "static/media/team-member-8.png": "/Game-web/static/media/team-member-8.c62bf39eb1f54eb85e83.png",
+    "static/media/gears-img-3.png": "/Game-web/static/media/gears-img-3.4a54604a9d784a8b62f3.png",
+    "static/media/team-member-1.png": "/Game-web/static/media/team-member-1.c1d2f42a555bcd9a919f.png",
+    "static/media/team-member-7.png": "/Game-web/static/media/team-member-7.b4e87ae73d4fe74d8042.png",
+    "static/media/team-member-6.png": "/Game-web/static/media/team-member-6.17833ab47462dacda8fb.png",
+    "static/media/team-member-10.png": "/Game-web/static/media/team-member-10.afaf453c06a52f052178.png",
+    "static/media/team-member-11.png": "/Game-web/static/media/team-member-11.3fcde98cd54a098a91f9.png",
+    "static/media/team-member-4.png": "/Game-web/static/media/team-member-4.8585048edce9b35e5e64.png",
+    "static/media/gamex.svg": "/Game-web/static/media/gamex.aee51caaaa5d26cfbf0da4b519f41152.svg",
+    "index.html": "/Game-web/index.html",
+    "main.ac0838b3.css.map": "/Game-web/static/css/main.ac0838b3.css.map",
+    "main.98d33248.js.map": "/Game-web/static/js/main.98d33248.js.map",
+    "787.0e769d05.chunk.js.map": "/Game-web/static/js/787.0e769d05.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac0838b3.css",
+    "static/js/main.98d33248.js"
+  ]
+}
