@@ -2,11 +2,12 @@ import React from "react";
 import "../App.css";
 import Logo from "../Images/gamex.svg";
 import Cardimg from "../Images/footer-bottom-img.png";
-// import YouTubeIcon from "@mui/icons-material/YouTube";
-// import MailIcon from "@mui/icons-material/Mail";
-// import SportsEsportsIcon from "@mui/icons-material/SportsEsports";
-// import MessageIcon from "@mui/icons-material/Message";
-// import { SearchOutline } from "react-ionicons";
+import YouTubeIcon from "@mui/icons-material/YouTube";
+import MailIcon from "@mui/icons-material/Mail";
+import SportsEsportsIcon from "@mui/icons-material/SportsEsports";
+import MessageIcon from "@mui/icons-material/Message";
+import SearchIcon from '@mui/icons-material/Search';
+
 
 const Footer = () => {
   return (
@@ -32,13 +33,8 @@ const Footer = () => {
                   placeholder="Find Here Now"
                   className="input-footer w-[100%] bg-[#1b1320] py-[12px] px-[25px] "
                 />
-                <button className="btn-footer absolute right-0.5 w-[52px] h-[48px] pl-4 bg-[#ff8605] ">
-                  {/* <SearchOutline
-                    color={"#fdfcfc"}
-                    title={""}
-                    height="50%"
-                    width="50%"
-                  /> */}
+                <button className="btn-footer absolute right-0.5 w-[52px] h-[48px] bg-[#ff8605] ">
+                  <SearchIcon />
                 </button>
               </div>
             </div>
@@ -51,7 +47,7 @@ const Footer = () => {
               <li>TERMS OF USE</li>
               <li>PRIVACY</li>
             </ul>
-            {/* <ul className=" flex flex-wrap gap-x-4">
+            <ul className=" flex flex-wrap gap-x-4">
               <li className=" bg-[#1b1320] p-[3px] rounded-[50%] ">
                 <MailIcon />
               </li>
@@ -64,7 +60,7 @@ const Footer = () => {
               <li className=" bg-[#1b1320] p-[3px] rounded-[50%] ">
                 <SportsEsportsIcon />
               </li>
-            </ul> */}
+            </ul>
           </div>
         </div>
       </div>

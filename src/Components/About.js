@@ -5,7 +5,7 @@ import Mcharac from "../Images/about-img.png";
 import Charac1 from "../Images/character-1.png";
 import Charac2 from "../Images/character-2.png";
 import Charac3 from "../Images/character-3.png";
-// import { ArrowForwardCircleOutline } from 'react-ionicons'
+import ArrowCircleRightOutlinedIcon from '@mui/icons-material/ArrowCircleRightOutlined';
 
 const About = () => {
   return (
@@ -49,12 +49,7 @@ const About = () => {
               lobortis.
             </p>
             <p className=" text-white flex flex-row items-center gap-x-2">
-              {/* <ArrowForwardCircleOutline
-                color={"#ff8605"}
-                title={""}
-                height="30px"
-                width="30px"
-              /> */}
+              <ArrowCircleRightOutlinedIcon/>
               Will sharpen your brain and focus
             </p>
           </div>

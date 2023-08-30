@@ -3,7 +3,9 @@ import "../App.css";
 import Gear1 from "../Images/gears-img-1.png";
 import Gear2 from "../Images/gears-img-2.png";
 import Gear3 from "../Images/gears-img-3.png";
-// import { TimeOutline, ShareSocialOutline, HeartOutline } from "react-ionicons";
+import AccessTimeOutlinedIcon from '@mui/icons-material/AccessTimeOutlined';
+import ShareOutlinedIcon from '@mui/icons-material/ShareOutlined';
+import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
 
 const Gears = () => {
   return (
@@ -27,22 +29,12 @@ const Gears = () => {
                     alt=""
                   />
                 </a>
-                <button className=" absolute top-[28%] right-[10%] pl-1 md:top-20 md:right-5 text-[20px] border-2 border-[#3f3f46] focus:border-[#ff8605] rounded-[50%] w-[9%] h-[11%] md:w-[45px] md:h-[45px]  ">
-                  {/* <ShareSocialOutline
-                    color={"#ff8605"}
-                    title={""}
-                    height="30px"
-                    width="30px"
-                  /> */}
+                <button className=" absolute top-[28%] right-[10%] pb-2 md:top-20 md:right-5 text-[20px] border-2 border-[#3f3f46] focus:border-[#ff8605] rounded-[50%] w-[9%] h-[11%] md:w-[45px] md:h-[45px]  ">
+                  <ShareOutlinedIcon/>
                 </button>
                 <div className=" absolute top-[5%] right-[10%] md:top-2 md:right-4 text-[14px] flex items-center flex-row gap-2 ">
                   <div>
-                    {/* <TimeOutline
-                      color={"#ff8605"}
-                      title={""}
-                      height="20px"
-                      width="20px"
-                    /> */}
+                    <AccessTimeOutlinedIcon/>
                   </div>
                   <span className=" text-[#ff8605] font-[oswald]">
                     IN 4 DAYS
@@ -63,12 +55,8 @@ const Gears = () => {
                   + ADD TO CART
                 </button>
                 <button className="btn-like focus:bg-[#ff8605] bg-[#1f2029]  py-[18px] px-[20px] ">
-                  {/* <HeartOutline
-                    color={"#ff8605"}
-                    title={""}
-                    height="25px"
-                    width="25px"
-                  /> */}
+                <FavoriteBorderOutlinedIcon/>
+
                 </button>
               </div>
             </div>
@@ -83,22 +71,13 @@ const Gears = () => {
                     alt=""
                   />
                 </a>
-                <button className=" absolute top-[28%] right-[10%] pl-1 md:top-20 md:right-5 text-[20px] border-2 border-[#3f3f46] focus:border-[#ff8605] rounded-[50%] w-[9%] h-[11%] md:w-[45px] md:h-[45px]  ">
-                  {/* <ShareSocialOutline
-                    color={"#ff8605"}
-                    title={""}
-                    height="30px"
-                    width="30px"
-                  /> */}
+                <button className=" absolute top-[28%] right-[10%] pb-2 md:top-20 md:right-5 text-[20px] border-2 border-[#3f3f46] focus:border-[#ff8605] rounded-[50%] w-[9%] h-[11%] md:w-[45px] md:h-[45px]  ">
+                <ShareOutlinedIcon/>
+
                 </button>
                 <div className=" absolute top-[5%] right-[10%] md:top-2 md:right-4 text-[14px] flex items-center flex-row gap-2 ">
                   <div>
-                    {/* <TimeOutline
-                      color={"#ff8605"}
-                      title={""}
-                      height="20px"
-                      width="20px"
-                    /> */}
+                  <AccessTimeOutlinedIcon/>
                   </div>
                   <span className=" text-[#ff8605] font-[oswald]">
                     IN 4 DAYS
@@ -119,12 +98,7 @@ const Gears = () => {
                   + ADD TO CART
                 </button>
                 <button className="btn-like focus:bg-[#ff8605] bg-[#1f2029]  py-[18px] px-[20px] ">
-                  {/* <HeartOutline
-                    color={"#ff8605"}
-                    title={""}
-                    height="25px"
-                    width="25px"
-                  /> */}
+                  <FavoriteBorderOutlinedIcon/>
                 </button>
               </div>
             </div>
@@ -139,22 +113,13 @@ const Gears = () => {
                     alt=""
                   />
                 </a>
-                <button className=" absolute top-[28%] right-[10%] md:top-20 md:right-5 text-[20px] border-2 border-[#3f3f46] focus:border-[#ff8605] pl-1 rounded-[50%] w-[9%] h-[11%] md:w-[45px] md:h-[45px]  ">
-                  {/* <ShareSocialOutline
-                    color={"#ff8605"}
-                    title={""}
-                    height="30px"
-                    width="30px"
-                  /> */}
+                <button className=" absolute top-[28%] right-[10%] md:top-20 md:right-5 text-[20px] border-2 border-[#3f3f46] focus:border-[#ff8605] pb-2 rounded-[50%] w-[9%] h-[11%] md:w-[45px] md:h-[45px]  ">
+                <ShareOutlinedIcon/>
+
                 </button>
                 <div className=" absolute top-[5%] right-[10%] md:top-2 md:right-4 text-[14px] flex items-center flex-row gap-2 ">
                   <div>
-                    {/* <TimeOutline
-                      color={"#ff8605"}
-                      title={""}
-                      height="20px"
-                      width="20px"
-                    /> */}
+                  <AccessTimeOutlinedIcon/>
                   </div>
                   <span className=" text-[#ff8605] font-[oswald]">
                     IN 4 DAYS
@@ -175,12 +140,8 @@ const Gears = () => {
                   + ADD TO CART
                 </button>
                 <button className="btn-like focus:bg-[#ff8605] bg-[#1f2029]  py-[18px] px-[20px] ">
-                  {/* <HeartOutline
-                    color={"#ff8605"}
-                    title={""}
-                    height="25px"
-                    width="25px"
-                  /> */}
+                <FavoriteBorderOutlinedIcon/>
+
                 </button>
               </div>
             </div>

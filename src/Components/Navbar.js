@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from "react";
 import "../App.css";
 import Logo from "../Images/gamex.svg";
-// import { SearchOutline, LogInOutline, CloseOutline } from "react-ionicons";
-// import TwitterIcon from '@mui/icons-material/Twitter';
-// import InstagramIcon from '@mui/icons-material/Instagram';
-// import GitHubIcon from '@mui/icons-material/GitHub';
-// import YouTubeIcon from '@mui/icons-material/YouTube';
+import SearchIcon from '@mui/icons-material/Search';
+import InputIcon from '@mui/icons-material/Input';
+import CloseIcon from '@mui/icons-material/Close';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import YouTubeIcon from '@mui/icons-material/YouTube';
 
 
 
@@ -180,27 +182,17 @@ const Navbar = (open) => {
           <div className="  flex flex-row gap-3">
             <div className="flex flex-row">
               <button className=" h-10 w-10 bg-[#1f2029]">
-                {/* <SearchOutline
-                  color={"#fdfcfc"}
-                  title={""}
-                  height="70%"
-                  width="70%"
-                /> */}
+                <SearchIcon className=" search-icon" />
               </button>
               <div className="w-2 h-10 bg-[#141419]"></div>
             </div>
             <div className="flex w-[6.5rem] h-10">
               <div className="w-[6rem] h-10 bg-[#262831]">
                 <div className=" flex  items-center text-sm text-white font-semibold">
-                  <div className=" w-[40px] h-[39px] ">
-                    {/* <LogInOutline
-                      color={"#fdfcfc"}
-                      title={""}
-                      height="100%"
-                      width="80%"
-                    /> */}
+                  <div className=" bg-[#1b1c22] w-[38px] h-[32px] mt-1 ">
+                    <InputIcon className="mt-1  "/>
                   </div>
-                  <span className="font-[oswald]" >LOG-IN</span>
+                  <span className=" w-[100%] font-[oswald] text-center " >LOG-IN</span>
                 </div>
               </div>
               <div className=" w-1 h-full bg-[#ff8605]"></div>
@@ -223,12 +215,7 @@ const Navbar = (open) => {
             <img src={Logo} alt="" />
           </a>
           <button onClick={closeBar} className=" text-[25px] w-[40px] h-[40px] ">
-          {/* <CloseOutline
-  color={'#ffffff'} 
-  title={""}
-  height="100%"
-  width="100%"
-/> */}
+          <CloseIcon className="close-icon" />
           </button>
         </div>
         <ul>
@@ -251,7 +238,7 @@ const Navbar = (open) => {
             CONTACT
           </li>
         </ul>
-        {/* <ul className="  flex flex-row justify-center gap-x-4 p-[25px]">
+        <ul className="  flex flex-row justify-center gap-x-4 p-[25px]">
           <li>
             <a  href="/">
               <TwitterIcon className="twitter" />
@@ -272,7 +259,7 @@ const Navbar = (open) => {
               <YouTubeIcon className="youtube" />
             </a>
           </li>
-        </ul> */}
+        </ul>
       </section>
     </>
   );
