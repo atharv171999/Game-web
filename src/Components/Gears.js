@@ -3,7 +3,7 @@ import "../App.css";
 import Gear1 from "../Images/gears-img-1.png";
 import Gear2 from "../Images/gears-img-2.png";
 import Gear3 from "../Images/gears-img-3.png";
-import { TimeOutline, ShareSocialOutline, HeartOutline } from "react-ionicons";
+// import { TimeOutline, ShareSocialOutline, HeartOutline } from "react-ionicons";
 
 const Gears = () => {
   return (
@@ -28,28 +28,32 @@ const Gears = () => {
                   />
                 </a>
                 <button className=" absolute top-[28%] right-[10%] pl-1 md:top-20 md:right-5 text-[20px] border-2 border-[#3f3f46] focus:border-[#ff8605] rounded-[50%] w-[9%] h-[11%] md:w-[45px] md:h-[45px]  ">
-                  <ShareSocialOutline
+                  {/* <ShareSocialOutline
                     color={"#ff8605"}
                     title={""}
                     height="30px"
                     width="30px"
-                  />
+                  /> */}
                 </button>
                 <div className=" absolute top-[5%] right-[10%] md:top-2 md:right-4 text-[14px] flex items-center flex-row gap-2 ">
                   <div>
-                    <TimeOutline
+                    {/* <TimeOutline
                       color={"#ff8605"}
                       title={""}
                       height="20px"
                       width="20px"
-                    />
+                    /> */}
                   </div>
-                  <span className=" text-[#ff8605] font-[oswald]">IN 4 DAYS</span>
+                  <span className=" text-[#ff8605] font-[oswald]">
+                    IN 4 DAYS
+                  </span>
                 </div>
               </div>
               <div className="flex justify-between items-center">
                 <div>
-                  <h3 className=" text-[22px] font-bold font-[oswald]">HEADPHONE</h3>
+                  <h3 className=" text-[22px] font-bold font-[oswald]">
+                    HEADPHONE
+                  </h3>
                   <p className="font-[oswald]">E-SPORTS</p>
                 </div>
                 <div className=" text-[22px] font-bold font-[oswald]">$18</div>
@@ -59,12 +63,12 @@ const Gears = () => {
                   + ADD TO CART
                 </button>
                 <button className="btn-like focus:bg-[#ff8605] bg-[#1f2029]  py-[18px] px-[20px] ">
-                  <HeartOutline
+                  {/* <HeartOutline
                     color={"#ff8605"}
                     title={""}
                     height="25px"
                     width="25px"
-                  />
+                  /> */}
                 </button>
               </div>
             </div>
@@ -80,28 +84,32 @@ const Gears = () => {
                   />
                 </a>
                 <button className=" absolute top-[28%] right-[10%] pl-1 md:top-20 md:right-5 text-[20px] border-2 border-[#3f3f46] focus:border-[#ff8605] rounded-[50%] w-[9%] h-[11%] md:w-[45px] md:h-[45px]  ">
-                  <ShareSocialOutline
+                  {/* <ShareSocialOutline
                     color={"#ff8605"}
                     title={""}
                     height="30px"
                     width="30px"
-                  />
+                  /> */}
                 </button>
                 <div className=" absolute top-[5%] right-[10%] md:top-2 md:right-4 text-[14px] flex items-center flex-row gap-2 ">
                   <div>
-                    <TimeOutline
+                    {/* <TimeOutline
                       color={"#ff8605"}
                       title={""}
                       height="20px"
                       width="20px"
-                    />
+                    /> */}
                   </div>
-                  <span className=" text-[#ff8605] font-[oswald]">IN 4 DAYS</span>
+                  <span className=" text-[#ff8605] font-[oswald]">
+                    IN 4 DAYS
+                  </span>
                 </div>
               </div>
               <div className="flex justify-between items-center">
                 <div>
-                  <h3 className=" text-[22px] font-bold font-[oswald]">CONTROLLER</h3>
+                  <h3 className=" text-[22px] font-bold font-[oswald]">
+                    CONTROLLER
+                  </h3>
                   <p className="font-[oswald]">E-SPORTS</p>
                 </div>
                 <div className=" text-[22px] font-bold font-[oswald]">$29</div>
@@ -111,12 +119,12 @@ const Gears = () => {
                   + ADD TO CART
                 </button>
                 <button className="btn-like focus:bg-[#ff8605] bg-[#1f2029]  py-[18px] px-[20px] ">
-                  <HeartOutline
+                  {/* <HeartOutline
                     color={"#ff8605"}
                     title={""}
                     height="25px"
                     width="25px"
-                  />
+                  /> */}
                 </button>
               </div>
             </div>
@@ -132,28 +140,32 @@ const Gears = () => {
                   />
                 </a>
                 <button className=" absolute top-[28%] right-[10%] md:top-20 md:right-5 text-[20px] border-2 border-[#3f3f46] focus:border-[#ff8605] pl-1 rounded-[50%] w-[9%] h-[11%] md:w-[45px] md:h-[45px]  ">
-                  <ShareSocialOutline
+                  {/* <ShareSocialOutline
                     color={"#ff8605"}
                     title={""}
                     height="30px"
                     width="30px"
-                  />
+                  /> */}
                 </button>
                 <div className=" absolute top-[5%] right-[10%] md:top-2 md:right-4 text-[14px] flex items-center flex-row gap-2 ">
                   <div>
-                    <TimeOutline
+                    {/* <TimeOutline
                       color={"#ff8605"}
                       title={""}
                       height="20px"
                       width="20px"
-                    />
+                    /> */}
                   </div>
-                  <span className=" text-[#ff8605] font-[oswald]">IN 4 DAYS</span>
+                  <span className=" text-[#ff8605] font-[oswald]">
+                    IN 4 DAYS
+                  </span>
                 </div>
               </div>
               <div className="flex justify-between items-center ">
                 <div>
-                  <h3 className=" text-[22px] font-bold font-[oswald]">GAMING MASK</h3>
+                  <h3 className=" text-[22px] font-bold font-[oswald]">
+                    GAMING MASK
+                  </h3>
                   <p className="font-[oswald]">E-SPORTS</p>
                 </div>
                 <div className=" text-[22px] font-bold font-[oswald]">$45</div>
@@ -163,12 +175,12 @@ const Gears = () => {
                   + ADD TO CART
                 </button>
                 <button className="btn-like focus:bg-[#ff8605] bg-[#1f2029]  py-[18px] px-[20px] ">
-                  <HeartOutline
+                  {/* <HeartOutline
                     color={"#ff8605"}
                     title={""}
                     height="25px"
                     width="25px"
-                  />
+                  /> */}
                 </button>
               </div>
             </div>

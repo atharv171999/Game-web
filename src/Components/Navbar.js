@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import "../App.css";
 import Logo from "../Images/gamex.svg";
-import { SearchOutline, LogInOutline, CloseOutline, Home } from "react-ionicons";
-import TwitterIcon from '@mui/icons-material/Twitter';
-import InstagramIcon from '@mui/icons-material/Instagram';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import YouTubeIcon from '@mui/icons-material/YouTube';
+// import { SearchOutline, LogInOutline, CloseOutline } from "react-ionicons";
+// import TwitterIcon from '@mui/icons-material/Twitter';
+// import InstagramIcon from '@mui/icons-material/Instagram';
+// import GitHubIcon from '@mui/icons-material/GitHub';
+// import YouTubeIcon from '@mui/icons-material/YouTube';
 
 
 
@@ -180,12 +180,12 @@ const Navbar = (open) => {
           <div className="  flex flex-row gap-3">
             <div className="flex flex-row">
               <button className=" h-10 w-10 bg-[#1f2029]">
-                <SearchOutline
+                {/* <SearchOutline
                   color={"#fdfcfc"}
                   title={""}
                   height="70%"
                   width="70%"
-                />
+                /> */}
               </button>
               <div className="w-2 h-10 bg-[#141419]"></div>
             </div>
@@ -193,12 +193,12 @@ const Navbar = (open) => {
               <div className="w-[6rem] h-10 bg-[#262831]">
                 <div className=" flex  items-center text-sm text-white font-semibold">
                   <div className=" w-[40px] h-[39px] ">
-                    <LogInOutline
+                    {/* <LogInOutline
                       color={"#fdfcfc"}
                       title={""}
                       height="100%"
                       width="80%"
-                    />
+                    /> */}
                   </div>
                   <span className="font-[oswald]" >LOG-IN</span>
                 </div>
@@ -223,12 +223,12 @@ const Navbar = (open) => {
             <img src={Logo} alt="" />
           </a>
           <button onClick={closeBar} className=" text-[25px] w-[40px] h-[40px] ">
-          <CloseOutline
+          {/* <CloseOutline
   color={'#ffffff'} 
   title={""}
   height="100%"
   width="100%"
-/>
+/> */}
           </button>
         </div>
         <ul>
@@ -251,7 +251,7 @@ const Navbar = (open) => {
             CONTACT
           </li>
         </ul>
-        <ul className="  flex flex-row justify-center gap-x-4 p-[25px]">
+        {/* <ul className="  flex flex-row justify-center gap-x-4 p-[25px]">
           <li>
             <a  href="/">
               <TwitterIcon className="twitter" />
@@ -272,7 +272,7 @@ const Navbar = (open) => {
               <YouTubeIcon className="youtube" />
             </a>
           </li>
-        </ul>
+        </ul> */}
       </section>
     </>
   );

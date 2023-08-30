@@ -11,7 +11,7 @@ import Member9 from "../Images/team-member-9.png";
 import Member10 from "../Images/team-member-10.png";
 import Member11 from "../Images/team-member-11.png";
 import Member12 from "../Images/team-member-12.png";
-import InsertLinkIcon from '@mui/icons-material/InsertLink';
+// import InsertLinkIcon from '@mui/icons-material/InsertLink';
 
 
 const Team = () => {
@@ -28,7 +28,7 @@ const Team = () => {
             <a className=" relative " href="/">
               <img className="  w-[100%]" src={Member1} alt="" />
               <div className=" absolute top-[45%] right-[40%] ">
-                <InsertLinkIcon className=" w-12" />
+                {/* <InsertLinkIcon className=" w-12" /> */}
               </div>
             </a>
           </li>
